@@ -1,0 +1,33 @@
+/* ==========================================================================
+   derralf/element-call-to-action
+   ========================================================================== */
+
+// some variables.
+// you may comment or change them when using this scss file in your workflow
+
+$well-bg:                     #f5f5f5 !default;
+
+// general layout
+.derralf__elements__calltoaction__element__elementcalltoaction {
+    .element__title,
+    .element__content,
+    .element__cta-btn-container {
+        text-align: center;
+    }
+    .well {
+        background: $well-bg;
+    }
+    .element__container-breakout {
+        width: calc(100vw);
+        position: relative;
+        left: 50%;
+        right: 50%;
+        margin-left: calc(-50vw);
+        margin-right: calc(-50vw);
+        .well {
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
+}
+

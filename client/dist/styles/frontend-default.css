@@ -1,0 +1,21 @@
+/* ==========================================================================
+   derralf/element-call-to-action
+   ========================================================================== */
+.derralf__elements__calltoaction__element__elementcalltoaction .element__title,
+.derralf__elements__calltoaction__element__elementcalltoaction .element__content,
+.derralf__elements__calltoaction__element__elementcalltoaction .element__cta-btn-container {
+  text-align: center; }
+
+.derralf__elements__calltoaction__element__elementcalltoaction .well {
+  background: #f5f5f5; }
+
+.derralf__elements__calltoaction__element__elementcalltoaction .element__container-breakout {
+  width: calc(100vw);
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: calc(-50vw);
+  margin-right: calc(-50vw); }
+  .derralf__elements__calltoaction__element__elementcalltoaction .element__container-breakout .well {
+    padding-left: 0;
+    padding-right: 0; }

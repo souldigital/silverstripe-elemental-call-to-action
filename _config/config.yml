@@ -1,0 +1,25 @@
+## icon or elemental grid field
+SilverStripe\Admin\LeftAndMain:
+  extensions:
+    - Derralf\Elements\CallToAction\Extensions\LeftAndMainExtension
+
+#---
+#Name: elementcalltoaction
+#---
+#Derralf\Elements\CallToAction\Element\ElementCallToAction:
+#  ## disable StyledTitle
+#  title_tag_variants: null
+#  title_alignment_variants: null
+#  ## default/example config
+#  styles:
+#    DefaultWell: 'with well'
+#    FullWidthWell: 'with well and full width (Container-Breakout)'
+#  styles_default_description: ''
+#  colors:
+#    primary: 'primary'
+#    success: 'success'
+#    info: 'info'
+#    warning: 'warning'
+#    danger: 'danger'
+#    myOwnCta: 'some other css-selector'
+#  readmore_link_class: 'btn btn-default btn-readmore'
