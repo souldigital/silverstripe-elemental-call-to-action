@@ -16,7 +16,7 @@ class ElementCallToAction extends BaseElement
         return self::$singular_name;
     }
 
-    private static $icon = 'ctafleximage-icon'; // 'font-icon-link';
+    private static $icon = 'calltoaction-icon'; // 'font-icon-link';
 
     private static $table_name = 'ElementCallToAction';
 
