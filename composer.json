@@ -1,5 +1,5 @@
 {
-    "name": "derralf/element-call-to-action",
+    "name": "derralf/elemental-call-to-action",
     "description": "A simple Call-to-Action block with HTML-Text and button for the silverstripe-elemental module",
     "type": "silverstripe-vendormodule",
     "keywords": [

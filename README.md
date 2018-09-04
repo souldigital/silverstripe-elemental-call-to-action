@@ -18,7 +18,7 @@ Modify `/templates/Derralf/Elements/CallToAction/Includes/Title.ss` to your need
 
 - Install the module via Composer
   ```
-  composer require derralf/element-call-to-action
+  composer require derralf/elemental-call-to-action
   ``` 
 
 ## Configuration
@@ -57,7 +57,7 @@ Additionally you may apply the default styles:
 # add default styles
 DNADesign\Elemental\Controllers\ElementController:
   default_styles:
-    - derralf/element-call-to-action:client/dist/styles/frontend-default.css
+    - derralf/elemental-call-to-action:client/dist/styles/frontend-default.css
 ```
 
 See Elemental Docs for [how to disable the default styles](https://github.com/dnadesign/silverstripe-elemental#disabling-the-default-stylesheets).
@@ -86,7 +86,7 @@ Templates based on Bootstrap 3+, but need some extra styling
 - Optionaly, you can require basic CSS stylings provided with this module to your controller class like **mysite/code/PageController.php**  
   
   ```
-  Requirements::css('derralf/element-call-to-action:client/dist/styles/frontend-default.css');
+  Requirements::css('derralf/elemental-call-to-action:client/dist/styles/frontend-default.css');
   ```
 - or copy over and modify `client/src/styles/frontend-default.scss` in your theme scss 
 

@@ -12,6 +12,6 @@ class LeftAndMainExtension extends Extension
 {
     public function init()
     {
-        Requirements::css('derralf/element-call-to-action: icons/icons.css');
+        Requirements::css('derralf/elemental-call-to-action: icons/icons.css');
     }
 }
