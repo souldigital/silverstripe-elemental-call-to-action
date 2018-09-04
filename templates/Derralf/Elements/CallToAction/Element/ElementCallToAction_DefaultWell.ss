@@ -10,7 +10,7 @@
 
             <% if $ReadMoreLink.LinkURL %>
                 <div class="element__cta-btn-container">
-                    <p><a href="$ReadMoreLink.LinkURL" class="btn btn-primary btn-readmore" {$ReadMoreLink.TargetAttr} ><% if $ReadMoreLink.Title %>$ReadMoreLink.Title<% else %> mehr<% end_if %></a></p>
+                    <p><a href="$ReadMoreLink.LinkURL" class="{$ReadmoreLinkClass}" {$ReadMoreLink.TargetAttr} ><% if $ReadMoreLink.Title %>$ReadMoreLink.Title<% else %> mehr<% end_if %></a></p>
                 </div>
             <% end_if %>
     </div>
