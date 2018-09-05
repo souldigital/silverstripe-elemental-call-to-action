@@ -4,7 +4,7 @@ SilverStripe\Admin\LeftAndMain:
     - Derralf\Elements\CallToAction\Extensions\LeftAndMainExtension
 
 #---
-#Name: elementcalltoaction
+#Name: elementalcalltoaction
 #---
 #Derralf\Elements\CallToAction\Element\ElementCallToAction:
 #  ## disable StyledTitle
