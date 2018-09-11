@@ -5,7 +5,7 @@
         <div class="container">
 
             <% if $ShowTitle %>
-                <% include Derralf\\Elements\\ElementTitleStyled %>
+                <% include Derralf\\Elements\\CallToAction\\Title %>
             <% end_if %>
 
             <% if $HTML %>
