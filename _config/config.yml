@@ -1,8 +1,3 @@
-## icon or elemental grid field
-SilverStripe\Admin\LeftAndMain:
-  extensions:
-    - Derralf\Elements\CallToAction\Extensions\LeftAndMainExtension
-
 #---
 #Name: elementalcalltoaction
 #---
