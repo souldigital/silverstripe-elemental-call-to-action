@@ -9,16 +9,16 @@ A simple Call-to-Action block with HTML-Text and button
 * sheadawson/silverstripe-linkable ^2.0@dev
 
 ## Suggestions
-* derralf/elemental-styling
+* soulandwolf/elemental-styling
 
-Modify `/templates/Derralf/Elements/CallToAction/Includes/Title.ss` to your needs when using StyledTitle from derralf/elemental-styling.
+Modify `/templates/Soulandwolf/Elements/CallToAction/Includes/Title.ss` to your needs when using StyledTitle from soulandwolf/elemental-styling.
 
 
 ## Installation
 
 - Install the module via Composer
   ```
-  composer require derralf/elemental-call-to-action
+  composer require soulandwolf/elemental-call-to-action
   ``` 
 
 ## Configuration
@@ -32,7 +32,7 @@ Note the example options for `colors`, for which NO styles are included in the d
 ---
 Name: elementcalltoaction
 ---
-Derralf\Elements\CallToAction\Element\ElementCallToAction:
+Soulandwolf\Elements\CallToAction\Element\ElementCallToAction:
   ## disable StyledTitle
   title_tag_variants: null
   title_alignment_variants: null
@@ -57,7 +57,7 @@ Additionally you may apply the default styles:
 # add default styles
 DNADesign\Elemental\Controllers\ElementController:
   default_styles:
-    - derralf/elemental-call-to-action:client/dist/styles/frontend-default.css
+    - soulandwolf/elemental-call-to-action:client/dist/styles/frontend-default.css
 ```
 
 See Elemental Docs for [how to disable the default styles](https://github.com/dnadesign/silverstripe-elemental#disabling-the-default-stylesheets).
@@ -67,14 +67,14 @@ See Elemental Docs for [how to disable the default styles](https://github.com/dn
 You may add your own templates/styles like this:
 
 ```
-Derralf\Elements\CallToAction\Element\ElementCallToAction
+Soulandwolf\Elements\CallToAction\Element\ElementCallToAction
   styles:
     MyCustomTemplate: "new customized special Layout"
 ```
 
-...and put a template named `ElementCallToAction_MyCustomTemplate.ss`in `themes/{your_theme}/templates/Derralf/Elements/CallToAction/Element/`  
+...and put a template named `ElementCallToAction_MyCustomTemplate.ss`in `themes/{your_theme}/templates/Soulandwolf/Elements/CallToAction/Element/`  
 **and/or**
-add styles for `.derralf__elements__calltoaction__element__elementcalltoaction.mycustomtemplate` to your style sheet.  
+add styles for `.soulandwolf__elements__calltoaction__element__elementcalltoaction.mycustomtemplate` to your style sheet.  
 
 Note: The left/right version is supplied via css (no separate template).
 
@@ -86,7 +86,7 @@ Templates based on Bootstrap 3+, but need some extra styling
 - Optionaly, you can require basic CSS stylings provided with this module to your controller class like **mysite/code/PageController.php**  
   
   ```
-  Requirements::css('derralf/elemental-call-to-action:client/dist/styles/frontend-default.css');
+  Requirements::css('soulandwolf/elemental-call-to-action:client/dist/styles/frontend-default.css');
   ```
 - or copy over and modify `client/src/styles/frontend-default.scss` in your theme scss 
 

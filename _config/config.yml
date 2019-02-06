@@ -1,7 +1,7 @@
 #---
 #Name: elementalcalltoaction
 #---
-#Derralf\Elements\CallToAction\Element\ElementCallToAction:
+#Soulandwolf\Elements\CallToAction\Element\ElementCallToAction:
 #  ## disable StyledTitle
 #  title_tag_variants: null
 #  title_alignment_variants: null

@@ -1,6 +1,6 @@
 <?php
 
-namespace Derralf\Elements\CallToAction\Element;
+namespace Soulandwolf\Elements\CallToAction\Element;
 
 
 use DNADesign\Elemental\Models\BaseElement;
@@ -20,8 +20,8 @@ class ElementCallToAction extends BaseElement
 
     private static $table_name = 'ElementCallToAction';
 
-    private static $singular_name = 'CTA-Element, einfach mit Button';
-    private static $plural_name = 'CTA-Elemente, einfach mit Button';
+    private static $singular_name = 'CTA-Element';
+    private static $plural_name = 'CTA-Elements';
     private static $description = '';
 
     private static $db = [

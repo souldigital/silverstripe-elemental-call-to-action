@@ -1,7 +1,7 @@
 {
-  "name": "derralf-simple-gulp",
+  "name": "simple-gulp",
   "description": "package json for installing node/gulp modules",
-  "author": "Jderralf",
+  "author": "Soulandwolf",
   "private": true,
   "scripts": {
     "postinstall": "touch node_modules/.metadata_never_index"

@@ -1,6 +1,6 @@
 {
-    "name": "derralf/elemental-call-to-action",
-    "description": "A simple Call-to-Action block with HTML-Text and button for the silverstripe-elemental module",
+    "name": "soulandwolf/elemental-call-to-action",
+    "description": "A simple Call-to-Action block with HTML-Text and button for the silverstripe-elemental module - updated to work with ss4.4",
     "type": "silverstripe-vendormodule",
     "keywords": [
         "silverstripe",
@@ -26,7 +26,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Derralf\\Elements\\CtaFlexImage\\": "src/"
+            "Soulandwolf\\Elements\\CtaFlexImage\\": "src/"
         }
     }
 }
