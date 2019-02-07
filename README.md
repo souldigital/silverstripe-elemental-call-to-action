@@ -4,15 +4,14 @@ A simple Call-to-Action block with HTML-Text and button
 
 ## Requirements
 
-* SilverStripe ^4.2
-* dnadesign/silverstripe-elemental ^3.0
+* SilverStripe ^4.4
+* dnadesign/silverstripe-elemental ^4.0@dev
 * sheadawson/silverstripe-linkable ^2.0@dev
 
 ## Suggestions
 * soulandwolf/elemental-styling
 
 Modify `/templates/Soulandwolf/Elements/CallToAction/Includes/Title.ss` to your needs when using StyledTitle from soulandwolf/elemental-styling.
-
 
 ## Installation
 

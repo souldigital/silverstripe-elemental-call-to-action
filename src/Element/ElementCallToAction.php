@@ -16,43 +16,38 @@ class ElementCallToAction extends BaseElement
         return self::$singular_name;
     }
 
+    /**
+     * @return string
+     */
     private static $icon = 'font-icon-right-dir';
 
+    /**
+     * @return string
+     */
     private static $table_name = 'ElementCallToAction';
 
+    /**
+     * @return string
+     */
     private static $singular_name = 'CTA-Element';
+
+    /**
+     * @return string
+     */
     private static $plural_name = 'CTA-Elements';
-    private static $description = '';
 
     private static $db = [
-        'HTML'                    => 'HTMLText',
-        'Color'                   => 'Varchar(255)',
+        'HTML' => 'HTMLText',
+        'Color' => 'Varchar(255)',
     ];
 
     private static $has_one = [
         'ReadMoreLink' => Link::Class
-
     ];
-
-    private static $has_many = [
-    ];
-
-    private static $many_many = [];
-
-    private static $belongs_many_many = [];
-
-    private static $owns = [
-    ];
-
-    private static $defaults = [
-    ];
-
-    private static $colors = [];
-
 
     private static $field_labels = [
-        'Title' => 'Titel',
-        'Sort' 	=>	'Sortierung'
+        'Title' => 'Title',
+        'Sort' 	=>	'Sorting'
     ];
 
     public function FieldLabels($includerelations = true)
@@ -100,7 +95,9 @@ class ElementCallToAction extends BaseElement
         return $this->config()->get('readmore_link_class');
     }
 
-
-
-
+    public function getRawContent()
+    {
+        $html = $this->owner->HTML;
+        return strip_tags($html);
+    }
 }
